@@ -1,0 +1,23 @@
+{
+  "name": "kai-pdf",
+  "version": "1.0.3",
+  "description": "This is a PDF viewer for vue.js & nuxt.js",
+  "main": "src/vuePdfNoSss.vue",
+  "scripts": {},
+  "keywords": [
+    "vue.js",
+    "pdf",
+    "viewer",
+    "nuxt"
+  ],
+  "author": "kaithongg",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "loader-utils": "^1.4.0",
+    "raw-loader": "^4.0.1",
+    "worker-loader": "^2.0.0",
+    "pdfjs-dist": "^2.5.207 <2.8.0",
+    "vue-resize-sensor": "^2.0.0"
+  }
+}
